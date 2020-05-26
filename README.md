@@ -1,7 +1,7 @@
 # ✅ Cub3D
 cursus 42 2019 - 2020
 Projet débuté à l'école sous mac, terminé sous VM (cf. confinement).
-# Warning : 
+* Warning : 
 nom de l'application Cub3D sujet français, cub3D sujet anglais !
 # Remarques :
 parsing non optimisé du a une errur de conception : dans une optique d'amélioration de performance j'avais conçu le code pour sortir du programme avant la fin de gnl : problème : cela génère des leaks car la variable static allouée dans gnl ne peut être free sauf si on fini gnl !!! j'ai modifié le parsing pour éviter les leaks mais j'aurai du le refaire pour l'optimisation et la lisibilité du code !!!
