@@ -1,6 +1,6 @@
 # ✅ Cub3D
-projet cursus 42 2019 - 2020
-
+cursus 42 2019 - 2020
+Projet débuté à l'école sous mac, terminé sous VM (cf. confinement).
 - Remarques :
 parsing non optimisé du a une errur de conception : dans une optique d'amélioration de performance j'avais conçu le code pour sortir du programme avant la fin de gnl : problème : cela génère des leaks car la variable static allouée dans gnl ne peut être free sauf si on fini gnl !!! j'ai modifié le parsing pour éviter les leaks mais j'aurai du le refaire pour l'optimisation et la lisibilité du code !!!
 Par ailleurs le makefile reste a modifier pour la version sous mac : source de la minilibix embarquée mais non modifié dans le build mac.
