@@ -1,12 +1,12 @@
 # ✅ Cub3D
 cursus 42 2019 - 2020
 Projet débuté à l'école sous mac, terminé sous VM (cf. confinement).
-* Warning : 
+* -Warning- : 
 nom de l'application Cub3D sujet français, cub3D sujet anglais !
-# Remarques :
+* *Remarques* :
 parsing non optimisé du a une errur de conception : dans une optique d'amélioration de performance j'avais conçu le code pour sortir du programme avant la fin de gnl : problème : cela génère des leaks car la variable static allouée dans gnl ne peut être free sauf si on fini gnl !!! j'ai modifié le parsing pour éviter les leaks mais j'aurai du le refaire pour l'optimisation et la lisibilité du code !!!
 Par ailleurs le makefile reste a modifier pour la version sous mac : source de la minilibix embarquée mais non modifié dans le build mac.
-# Documentation :
+#Documentation :#
   - [ray-casting] (https://fr.wikipedia.org/wiki/Raycasting) (https://lodev.org/cgtutor/raycasting.html) (http://projet-moteur-3d.e-monsite.com/pages/raycasting/raycasting.html) (http://forums.mediabox.fr/wiki/tutoriaux/flashplatform/affichage/3d/raycasting) (https://lodev.org/cgtutor/raycasting3.html)
 - [mlx_functions] (https://elearning.intra.42.fr/searches/search?query=minilibx) (https://harm-smits.github.io/42docs/) (https://github.com/keuhdall/images_example)
 mlx_init : initialise la connexion entre le programme et le serveur graphique : envoie les ordres (e.g. ouvrir une fenetre, faire des dessins a l'interieur) et receptionne des évênements (est-ce que l'utilisateurs a cliqué sur une touche?);
