@@ -1,6 +1,6 @@
 # ✅ Cub3D
 cursus 42 2019 - 2020
-Projet débuté à l'école sous mac, terminé sous VM (cf. confinement).
+ Projet débuté à l'école sous mac, terminé sous VM (cf. confinement).
 - Warning : 
 nom de l'application Cub3D sujet français, cub3D sujet anglais !
 - Remarques :
