@@ -13,4 +13,4 @@ Par ailleurs le makefile reste a modifier pour la version sous mac : source de l
 sauvegarde d'une image bmp : http://fvirtman.free.fr/recueil/01_09_02_testbmp.c.php http://www.apprendre-en-ligne.net/info/images/formatbmp.pdf http://projet.eu.org/pedago/sin/ISN/7-format_BMP.pdf
 - CommandeS valgrind
   * CUB=Cub3D;MAP=map.cub;valgrind --tool=memcheck --leak-check=full --leak-resolution=high --show-reachable=yes --log-file=valgrind_log ./$CUB $MAP;grep -A1 "valgrind" valgrind_log|grep $CUB
-  * valgrind --leak-check=yes ./cub3d map2.cub
+  * valgrind --leak-check=yes ./Cub3D map.cub
