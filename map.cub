@@ -1,11 +1,11 @@
 R 1920 1080
-NO ./srcs/ressources/damier1.xpm
+NO ./srcs/ressources/cheshire.xpm
 SO ./srcs/ressources/tornade.xpm
 WE ./srcs/ressources/spirale4.xpm
 EA ./srcs/ressources/damierdeforme.xpm
 F 200,95,252
 C 255, 20,255
-S ./srcs/ressources/chenille.xpm
+S ./srcs/ressources/barrel.xpm
 
 
 111111111111111111111 
